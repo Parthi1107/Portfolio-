@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emimal P - Account Manager & Sales Professional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loader">
+            <div class="loader-ring"></div>
+            <div class="loader-text">Loading...</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h3>Emimal P</h3>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#hero" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-background">
+            <div class="particles" id="particles"></div>
+            <div class="gradient-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="text-gradient">Emimal P</span>
+                </h1>
+                <h2 class="hero-subtitle typing-text" id="typing-text"></h2>
+                <p class="hero-description">
+                    Dynamic and result-oriented professional with over 5 years of experience across customer service, sales, and team management roles.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn--primary btn--lg">Get In Touch</a>
+                    <a href="#" class="btn btn--outline btn--lg" id="download-resume">Download Resume</a>
+                </div>
+                <div class="hero-social">
+                    <a href="#" class="social-link" target="_blank" aria-label="LinkedIn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="social-link" target="_blank" aria-label="GitHub">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                    <a href="mailto:emimal1716@gmail.com" class="social-link" aria-label="Email">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636C.732 21.002 0 20.27 0 19.366V5.457c0-.904.732-1.636 1.636-1.636h3.819l6.545 4.91 6.545-4.91h3.819c.904 0 1.636.732 1.636 1.636z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number" data-count="5">0</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="4">0</div>
+                    <div class="stat-label">Achievements</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="12">0</div>
+                    <div class="stat-label">Skills</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="3">0</div>
+                    <div class="stat-label">Qualifications</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know more about my background and expertise</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-summary">
+                        Dynamic and result-oriented professional with over 5 years of experience across customer service, sales, and team management roles. Recognized for building strong client relationships, streamlining operations, and contributing to business growth.
+                    </p>
+                    <p class="about-description">
+                        Adept at working under pressure, leading teams, and delivering solutions that enhance customer satisfaction. Skilled in CRM tools, sales automation, and market analysis. Committed to continuous learning and excellence in all professional endeavors.
+                    </p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <span class="detail-label">Date of Birth:</span>
+                            <span class="detail-value">16/09/1996</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Location:</span>
+                            <span class="detail-value">No. 568, 8th cross, Ramamurthy nagar, Bangalore</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Email:</span>
+                            <span class="detail-value">emimal1716@gmail.com</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="detail-label">Phone:</span>
+                            <span class="detail-value">+91 9663393431</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <h3>Client Relations</h3>
+                        <p>Building and maintaining long-term client relationships, ensuring satisfaction and retention</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>CRM Management</h3>
+                        <p>Proficient in Univw-NB CRM and C-zentrix CRM for lead management and sales optimization</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>Team Leadership</h3>
+                        <p>Experienced in leading teams, mentoring junior staff, and implementing performance improvements</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">My professional journey and accomplishments</p>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-period">01/2025 - 05/2025</div>
+                        <h3 class="timeline-title">Account Manager</h3>
+                        <div class="timeline-company">Magicbricks • Bangalore</div>
+                        <p class="timeline-description">Real estate online platform</p>
+                        <ul class="timeline-responsibilities">
+                            <li>Built and maintained long-term client relationships, ensuring satisfaction and retention</li>
+                            <li>Acted as a key point of contact for issue resolution, bridging gaps between clients and internal teams</li>
+                            <li>Identified cross-selling and upselling opportunities to enhance revenue</li>
+                            <li>Contributed to the achievement of quarterly targets by increasing account renewals</li>
+                        </ul>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">Account Management</span>
+                            <span class="skill-tag">Client Relations</span>
+                            <span class="skill-tag">Revenue Growth</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-period">05/2024 - 12/2025</div>
+                        <h3 class="timeline-title">Senior Sales Executive</h3>
+                        <div class="timeline-company">Quikr • Bangalore</div>
+                        <p class="timeline-description">Online classified advertisement platform</p>
+                        <ul class="timeline-responsibilities">
+                            <li>Utilized C-Zentrix CRM to manage client interactions, track communication history, and streamline the sales pipeline</li>
+                            <li>Building relationships with existing clients and seeking out new ones</li>
+                            <li>Providing excellent customer service and personalized follow-ups to encourage repeat business</li>
+                            <li>Negotiating deals with clients to reach mutually beneficial agreements and close deals</li>
+                            <li>Identifying business opportunities and creating strategies</li>
+                            <li>Preparing and analyzing sales reports and data, and conducting market research</li>
+                            <li>Meeting with clients, demonstrating products, and resolving customer concerns</li>
+                        </ul>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">C-Zentrix CRM</span>
+                            <span class="skill-tag">Sales Strategy</span>
+                            <span class="skill-tag">Negotiation</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-period">01/2022 - 03/2024</div>
+                        <h3 class="timeline-title">Senior Executive</h3>
+                        <div class="timeline-company">No Broker • Bangalore</div>
+                        <p class="timeline-description">Real estate online platform</p>
+                        <ul class="timeline-responsibilities">
+                            <li>Leveraged Univw-NB CRM for lead management, data tracking, and customer follow-ups</li>
+                            <li>Automated recurring tasks using CRM tools to save time and boost efficiency</li>
+                            <li>Produced insights from customer data to improve service quality and drive decision-making</li>
+                            <li>Mentored junior staff and shared best practices in client handling</li>
+                            <li>Collaborated with cross-functional teams to align lead generation strategies with business goals</li>
+                            <li>Maintained high lead conversion rates through consistent follow-ups and personalized communication</li>
+                            <li>Analyzed lead behavior and campaign performance to refine outreach strategies and boost ROI</li>
+                        </ul>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">Univw-NB CRM</span>
+                            <span class="skill-tag">Lead Generation</span>
+                            <span class="skill-tag">Team Management</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-period">05/2014 - 08/2018</div>
+                        <h3 class="timeline-title">Shift Manager</h3>
+                        <div class="timeline-company">McDonald's • Bangalore</div>
+                        <p class="timeline-description">Global fast-food restaurant chain</p>
+                        <ul class="timeline-responsibilities">
+                            <li>Managed day-to-day store operations, staff scheduling, and inventory controls</li>
+                            <li>Monitored team KPIs and implemented training to improve performance</li>
+                            <li>Led customer service initiatives, resulting in improved satisfaction scores</li>
+                            <li>Maintained hygiene and quality standards across all shift operations</li>
+                            <li>Supporting, coaching, and empowering crew to bring their best</li>
+                            <li>Handling customer complaints and inquiries in a professional manner</li>
+                            <li>Ensuring all standards are met and solving operational problems</li>
+                        </ul>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">Operations Management</span>
+                            <span class="skill-tag">Team Leadership</span>
+                            <span class="skill-tag">Customer Service</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills</h2>
+                <p class="section-subtitle">Technical expertise and soft skills</p>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3 class="skills-category-title">Technical Skills</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar" data-skill="95">
+                            <div class="skill-info">
+                                <span class="skill-name">Lead Generation</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" style="width: 0%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar" data-skill="90">
+                            <div class="skill-info">
+                                <span class="skill-name">Univw-NB CRM</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" style="width: 0%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar" data-skill="90">
+                            <div class="skill-info">
+                                <span class="skill-name">C-zentrix CRM</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" style="width: 0%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar" data-skill="85">
+                            <div class="skill-info">
+                                <span class="skill-name">Microsoft Office</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" style="width: 0%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar" data-skill="80">
+                            <div class="skill-info">
+                                <span class="skill-name">Microsoft Power Point</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" style="width: 0%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar" data-skill="80">
+                            <div class="skill-info">
+                                <span class="skill-name">MS Excel</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-progress-bar" style="width: 0%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skills-category">
+                    <h3 class="skills-category-title">Soft Skills</h3>
+                    <div class="skill-circles">
+                        <div class="skill-circle" data-skill="95">
+                            <div class="circle-progress">
+                                <svg class="circle-svg" viewBox="0 0 100 100">
+                                    <circle class="circle-bg" cx="50" cy="50" r="45" fill="none" stroke="var(--color-border)" stroke-width="8"/>
+                                    <circle class="circle-progress-bar" cx="50" cy="50" r="45" fill="none" stroke="var(--color-primary)" stroke-width="8" stroke-linecap="round"/>
+                                </svg>
+                                <div class="circle-percentage">95%</div>
+                            </div>
+                            <div class="circle-label">Active Listening</div>
+                        </div>
+                        <div class="skill-circle" data-skill="92">
+                            <div class="circle-progress">
+                                <svg class="circle-svg" viewBox="0 0 100 100">
+                                    <circle class="circle-bg" cx="50" cy="50" r="45" fill="none" stroke="var(--color-border)" stroke-width="8"/>
+                                    <circle class="circle-progress-bar" cx="50" cy="50" r="45" fill="none" stroke="var(--color-primary)" stroke-width="8" stroke-linecap="round"/>
+                                </svg>
+                                <div class="circle-percentage">92%</div>
+                            </div>
+                            <div class="circle-label">Teamwork</div>
+                        </div>
+                        <div class="skill-circle" data-skill="90">
+                            <div class="circle-progress">
+                                <svg class="circle-svg" viewBox="0 0 100 100">
+                                    <circle class="circle-bg" cx="50" cy="50" r="45" fill="none" stroke="var(--color-border)" stroke-width="8"/>
+                                    <circle class="circle-progress-bar" cx="50" cy="50" r="45" fill="none" stroke="var(--color-primary)" stroke-width="8" stroke-linecap="round"/>
+                                </svg>
+                                <div class="circle-percentage">90%</div>
+                            </div>
+                            <div class="circle-label">Problem Solving</div>
+                        </div>
+                        <div class="skill-circle" data-skill="90">
+                            <div class="circle-progress">
+                                <svg class="circle-svg" viewBox="0 0 100 100">
+                                    <circle class="circle-bg" cx="50" cy="50" r="45" fill="none" stroke="var(--color-border)" stroke-width="8"/>
+                                    <circle class="circle-progress-bar" cx="50" cy="50" r="45" fill="none" stroke="var(--color-primary)" stroke-width="8" stroke-linecap="round"/>
+                                </svg>
+                                <div class="circle-percentage">90%</div>
+                            </div>
+                            <div class="circle-label">Adaptability</div>
+                        </div>
+                        <div class="skill-circle" data-skill="88">
+                            <div class="circle-progress">
+                                <svg class="circle-svg" viewBox="0 0 100 100">
+                                    <circle class="circle-bg" cx="50" cy="50" r="45" fill="none" stroke="var(--color-border)" stroke-width="8"/>
+                                    <circle class="circle-progress-bar" cx="50" cy="50" r="45" fill="none" stroke="var(--color-primary)" stroke-width="8" stroke-linecap="round"/>
+                                </svg>
+                                <div class="circle-percentage">88%</div>
+                            </div>
+                            <div class="circle-label">Decision Making</div>
+                        </div>
+                        <div class="skill-circle" data-skill="85">
+                            <div class="circle-progress">
+                                <svg class="circle-svg" viewBox="0 0 100 100">
+                                    <circle class="circle-bg" cx="50" cy="50" r="45" fill="none" stroke="var(--color-border)" stroke-width="8"/>
+                                    <circle class="circle-progress-bar" cx="50" cy="50" r="45" fill="none" stroke="var(--color-primary)" stroke-width="8" stroke-linecap="round"/>
+                                </svg>
+                                <div class="circle-percentage">85%</div>
+                            </div>
+                            <div class="circle-label">Tone Management</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">Academic background and certifications</p>
+            </div>
+            <div class="education-grid">
+                <div class="education-card" data-aos="fade-up">
+                    <div class="education-period">2017</div>
+                    <h3 class="education-title">Diploma in I.T.E.S Management</h3>
+                    <div class="education-institution">St Joseph College, Bangalore</div>
+                </div>
+                <div class="education-card" data-aos="fade-up">
+                    <div class="education-period">2014</div>
+                    <h3 class="education-title">2nd PUC</h3>
+                    <div class="education-institution">Bangalore city college, Bangalore</div>
+                </div>
+                <div class="education-card" data-aos="fade-up">
+                    <div class="education-period">2012</div>
+                    <h3 class="education-title">10th</h3>
+                    <div class="education-institution">Radiant High School, Bangalore</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Achievements</h2>
+                <p class="section-subtitle">Recognition and awards throughout my career</p>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-card" data-aos="fade-up">
+                    <div class="achievement-icon">🏆</div>
+                    <h3 class="achievement-title">Top Performer – Magicbricks</h3>
+                    <p class="achievement-description">Appreciated for "Top Performer of the Quarter" for consistently exceeding client satisfaction targets and contributing to account growth through effective relationship management.</p>
+                </div>
+                <div class="achievement-card" data-aos="fade-up">
+                    <div class="achievement-icon">🎯</div>
+                    <h3 class="achievement-title">Sales Excellence – Quikr</h3>
+                    <p class="achievement-description">Recognized by Quikr Sales Leadership for consistently achieving monthly sales goals and contributing to team revenue growth.</p>
+                </div>
+                <div class="achievement-card" data-aos="fade-up">
+                    <div class="achievement-icon">🌟</div>
+                    <h3 class="achievement-title">Customer Champion – NoBroker</h3>
+                    <p class="achievement-description">Appreciated by senior management for exceptional client handling and effective use of Salesforce CRM to improve response time and customer experience.</p>
+                </div>
+                <div class="achievement-card" data-aos="fade-up">
+                    <div class="achievement-icon">🤝</div>
+                    <h3 class="achievement-title">Team Player Award – McDonald's</h3>
+                    <p class="achievement-description">Received Best Team Player award for leading shift teams efficiently, solving operational issues swiftly, and maintaining high service quality during peak hours.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's discuss how I can contribute to your team</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>emimal1716@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 9663393431</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>No. 568, 8th cross, Ramamurthy nagar, Bangalore</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2025 Emimal P. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link" target="_blank" aria-label="LinkedIn">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                    </a>
+                    <a href="mailto:emimal1716@gmail.com" class="social-link" aria-label="Email">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636C.732 21.002 0 20.27 0 19.366V5.457c0-.904.732-1.636 1.636-1.636h3.819l6.545 4.91 6.545-4.91h3.819c.904 0 1.636.732 1.636 1.636z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
